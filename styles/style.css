@@ -63,7 +63,7 @@ nav li a {
     text-align: center;  
 }
 header{
-    background-image: url(/images/Hero-bg.png);
+    background-image: url(../images/Hero-bg.png);
     background-size: contain;
     background-position: center;   
 }
