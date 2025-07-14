@@ -24,11 +24,20 @@
     font-weight: bold;
 
 }
+.bt-primary:hover{
+    background-color: rgb(230, 230, 26);
+    color: black;
+}
 section{
     margin-left: 151px;
     margin-right: 141px;
     margin-bottom: 137px;
 }
+main{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 /* navigation section */
 nav{
     margin: 0px 150px; 
@@ -78,10 +87,15 @@ header{
     background-size: contain;
     background-position: center;   
 }
+body{
+     background-color: #f8f6fc;
+     margin: 0;
+}
 
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /* action-section-style */
 .action-section{
@@ -227,4 +241,98 @@ header{
 }
 .ready-subtitle{
     color: rgba(0, 0, 0, 0.5);
+}
+
+/* touch-section-style */
+.touch-section02{
+    display: flex;
+    gap: 115px;
+    justify-content: space-between;
+    align-items: center;
+}
+.touch-left{
+    font-size: 97px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    padding: 200px 0;
+}
+.touch-right{
+    display: block;
+    padding: 71px 0;
+    align-items: center;
+
+}
+.contact-form input,
+.contact-form textarea {
+  /* margin: 19px 0px; */
+  
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color:white;
+  /* transition: border-color 0.3s; */
+  width:100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  border: 1px solid #EBEBEB;
+}
+.bt-form{
+    width:100%;
+    font-size: 16px;
+}
+.touch-placeholder{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.top-margin{
+    margin-top: 20px;
+}
+.top-padding{
+    padding-top:20px;
+}
+.bt-form-label{
+    font: 18px;
+    font-weight:500px;
+}
+
+label{
+    display: block;
+    /* margin-bottom: 20px; */
+    margin-top: 20px;
+}
+/* footer-section-styles */
+footer{
+    background-color: white;
+    padding: 50px 0; 
+}
+.webinfo{
+    max-width: 1148px;
+    margin: 0 auto; 
+    padding: 0;
+    align-items: center;
+    margin: 104px 455px 103px 454px;
+}
+.website-name{
+    color: #4E47FF;
+    font-size: 90px; 
+    margin-bottom: 8px; 
+    text-align: center;
+}
+.subtitle{
+    text-align: center;
+    margin-bottom: 32px;
+    color: rgba(137, 135, 161, 1);
+    margin-bottom:8px ;
+
+}
+.different-links{
+    display: flex;
+    justify-content:center;
+    gap: 48px;
+
+}
+footer a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
 }
